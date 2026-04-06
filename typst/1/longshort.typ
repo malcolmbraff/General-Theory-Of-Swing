@@ -1,0 +1,2 @@
+== Longs and shorts
+The same principle applies far beyond two subdivisions: any beat can be subdivided unequally, producing characteristic patterns of _LONGS_ and _shorts_. For the sake of clarity, we’ll mostly work with just two categories—_LONG_ and _short_ notes—though in theory, subdivisions could also produce richer contrasts such as _short–Medium–LONG_.

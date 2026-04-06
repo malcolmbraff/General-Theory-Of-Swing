@@ -1,0 +1,2 @@
+== Functional vs. Absolute Time
+It’s important to distinguish between functional rhythm (how rhythm works within the music) and absolute time (measured in seconds). Musical notation often appears to suggest an absolute timing system, but in reality, it’s a relative framework—a map of proportions and functions rather than a stopwatch.

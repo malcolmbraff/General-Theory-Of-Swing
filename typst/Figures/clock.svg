@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Clock" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1054.17 1332.01">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        font-family: Noteworthy-Bold, Noteworthy;
+        font-size: 57px;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        stroke-width: 9px;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        stroke-width: 3.72px;
+      }
+    </style>
+  </defs>
+  <circle class="cls-3" cx="554.94" cy="617.11" r="427.3"/>
+  <polygon class="cls-2" points="554.95 617.11 854.36 317.71 554.95 617.11 946.14 455.08 554.95 617.11 978.37 617.12 554.95 617.11 946.13 779.16 554.95 617.11 854.34 916.52 554.95 617.11 716.97 1008.31 554.94 617.11 554.93 1040.53 554.94 617.11 392.9 1008.3 554.94 617.11 255.53 916.51 554.94 617.11 163.75 779.14 554.94 617.11 131.52 617.1 554.94 617.11 163.76 455.06 554.94 617.11 255.55 317.7 554.94 617.11 392.92 225.91 554.94 617.11 554.96 193.69 554.94 617.11 716.99 225.92 554.95 617.11"/>
+  <circle class="cls-1" cx="554.94" cy="617.11" r="366.72"/>
+  <text class="cls-4" transform="translate(546.04 164.67)"><tspan x="0" y="0">1</tspan></text>
+  <text class="cls-4" transform="translate(717.35 193.69)"><tspan x="0" y="0">2</tspan></text>
+  <text class="cls-4" transform="translate(870.18 299.9)"><tspan x="0" y="0">3</tspan></text>
+  <text class="cls-4" transform="translate(974.24 455.45)"><tspan x="0" y="0">4</tspan></text>
+  <text class="cls-4" transform="translate(973.39 813.55)"><tspan x="0" y="0">6</tspan></text>
+  <text class="cls-4" transform="translate(874.45 987.09)"><tspan x="0" y="0">7</tspan></text>
+  <text class="cls-4" transform="translate(716.96 1099.11)"><tspan x="0" y="0">8</tspan></text>
+  <text class="cls-4" transform="translate(535.24 1133.36)"><tspan x="0" y="0">9</tspan></text>
+  <text class="cls-4" transform="translate(342.44 1092.73)"><tspan x="0" y="0">10</tspan></text>
+  <text class="cls-4" transform="translate(199.34 987.09)"><tspan x="0" y="0">11</tspan></text>
+  <text class="cls-4" transform="translate(81.31 822.26)"><tspan x="0" y="0">12</tspan></text>
+  <text class="cls-4" transform="translate(43.77 642.34)"><tspan x="0" y="0">13</tspan></text>
+  <text class="cls-4" transform="translate(77.6 449.06)"><tspan x="0" y="0">14</tspan></text>
+  <text class="cls-4" transform="translate(177.01 303.38)"><tspan x="0" y="0">15</tspan></text>
+  <text class="cls-4" transform="translate(347.21 189.81)"><tspan x="0" y="0">16</tspan></text>
+  <text class="cls-4" transform="translate(1010.28 634.21)"><tspan x="0" y="0">5</tspan></text>
+</svg>

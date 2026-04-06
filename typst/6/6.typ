@@ -1,0 +1,7 @@
+= Psychoacoustics of the Beat
+#v(15pt)
+The groove effect and the depth of the beat are two closely related phenomena that together illuminate how swing shapes the listener's perception of pulse. While the preceding chapters have treated swing primarily as a structural property of subdivision patterns, this chapter shifts focus to its perceptual consequences. We first examine the groove effect: the observation that swinging a subdivision system does not merely alter its internal spacing, but actively enforces a single, unambiguous interpretation of the beat. Where an even subdivision stream leaves the grouping structure open to arbitrary interpretation by the listener's brain, a swung stream makes the beat cycle unavoidable — audible even at audio rate as a sub-harmonic of the subdivision frequency. We then turn to the related but distinct concept of beat depth: the idea that the strength of the pulse, as a perceptual phenomenon, is itself a parameter that can be consciously modulated. Drawing on observations from performance practice, we argue that musicians can learn to adjust the amplitude of their inner pulse feel — shifting between a deep, vertical, wave-like sense of the beat and a more surface-level, horizontal, narrative perception of time — and that this capacity is central to navigating complex rhythmic textures with both precision and expressivity.
+
+#include "grooveEffect.typ"
+#v(15pt)
+#include "beatDepth.typ"
