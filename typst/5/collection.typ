@@ -1,4 +1,5 @@
-== Collection of Patterns
+= Collection of Patterns
+#v(15pt)
 
 We build an extensive collection of swing patterns composed of different
 combinations of longs and shorts. This collection can be organized according to
@@ -18,7 +19,7 @@ four distinct properties:
 + *Potential energy* — as described above, this expresses the degree of tension
   or deviation from an even (straight) distribution.
 
-=== Pattern vs Swing
+== Pattern vs Swing
 
 Each element of the collection can be considered either as a specific swing of
 $n$ subdivisions (the _tuplet-size_) or as a pattern consisting of $n$ accents

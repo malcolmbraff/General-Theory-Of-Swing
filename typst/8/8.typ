@@ -1,7 +1,6 @@
 = More to come
 
-== Polytuplets
-== Fractal rhythms
+== Polytuplets, Fractal rhythms
 == Harmonic steps as cross rhythm
-== book of exercises
+== Rhythm modulation
 == Doing the Math

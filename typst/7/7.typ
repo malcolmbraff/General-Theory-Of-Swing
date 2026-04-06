@@ -6,7 +6,6 @@ The final chapter brings together the theoretical apparatus developed throughout
 
 #include "tupletNotation.typ"
 #v(15pt)
-
 #include "tuplet-vs-subdivision.typ"
 #v(15pt)
 #include "voc5.typ"
