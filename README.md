@@ -1,4 +1,5 @@
 # Generalized Theory of Swing
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19445894.svg)](https://doi.org/10.5281/zenodo.19445894)
 
 **Malcolm Braff** — Jazzcampus, HSM Basel, FHNW  
 *Working paper — Rhythm Class III Compendium*
@@ -27,7 +28,7 @@ and archived on Zenodo with a DOI.
 
 Braff, M. (2025). *Generalized Theory of Swing — Rhythm Class III 
 Compendium* (working paper). Jazzcampus, FHNW. 
-https://doi.org/[YOUR DOI HERE]
+https://doi.org/10.5281/zenodo.19445894
 
 ## License
 
