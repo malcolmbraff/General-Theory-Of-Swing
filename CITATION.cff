@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use or reference this work, please cite it as below."
+type: software
+title: "Generalized Theory of Swing — Rhythm Class III Compendium"
+abstract: "A formally grounded theory of swing defined as a structural 
+  property of rhythmic subdivision, covering groove balance, mirror effect, 
+  potential energy, Euclidean rhythms, and Quplets."
+authors:
+  - family-names: Braff
+    given-names: Malcolm
+    orcid: https://orcid.org/0009-0007-0699-0737
+    affiliation: "Jazzcampus, HSM Basel, FHNW University of Applied 
+      Sciences and Arts Northwestern Switzerland"
+repository-code: https://github.com/malcolmbraff/General-Theory-Of-Swing
+doi: 10.5281/zenodo.19445894
+version: v0.1
+date-released: "2026-04-06"
+license: CC-BY-NC-ND-4.0
+keywords:
+  - swing
+  - groove balance
+  - mirror effect
+  - Quplets
+  - Euclidean rhythms
+  - rhythm theory
+  - music theory
+  - subdivision
