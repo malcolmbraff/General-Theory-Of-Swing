@@ -1,7 +1,7 @@
 #include "title.typ"
 
 #set heading(numbering: "1.") 
-#outline(title: [List of content], depth:4)
+#outline(title: [Table of contents], depth:4)
 #pagebreak()
 
 #include "1/1.typ"

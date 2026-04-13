@@ -1,4 +1,4 @@
-== Mirror Effect in Paired Swinging Systems
+=== Mirror Effect in Paired Swinging Systems
 
 Some paired (two-sided) swinging subdivision systems can maintain this increased
 synchronicity across the entire swing range (0%–100%), morphing through what I

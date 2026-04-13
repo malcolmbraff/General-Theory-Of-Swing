@@ -8,17 +8,19 @@
   #text(size: 11pt, tracking: 3pt, fill: luma(120))[
     WORKING PAPER
   ]
-
+#text(size: 9pt, fill: luma(150))[
+  DOI: 10.5281/zenodo.19445894
+]
   #v(1em)
 
   #text(size: 28pt, weight: "bold")[
-    Generalized Theory of Swing
+    How does it feel?
   ]
 
   #v(0.6em)
 
   #text(size: 14pt, fill: luma(80))[
-    Rhythm Class III — Compendium
+    towards a generalized theory of swing
   ]
 
   #v(3fr)
