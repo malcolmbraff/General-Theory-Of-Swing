@@ -23,16 +23,16 @@ The Western metric system is a limited harmonic system, as there is always only 
 === What about Swing?
 Such a normalized metric system is unable to describe the phrasing that some musicians/cultures apply to their subdivision. A subdivision is termed _phrased_ when some distorsion or _swing_ is applied to the subdivision grid resulting into the feeling that the pulse is divided into uneven subdivisions. Known examples of this are the _swinging eight-note_ of course, but also the so-called _brazilian-sixteenth_, or the recently popularized Gnawa triplets and sixteenth.
 
-=== Functional vs. Absolute Time
+== Functional vs. Absolute Time
 It’s important to distinguish between functional rhythm (how rhythm works within the music) and absolute time (measured in seconds). Musical notation often appears to suggest an absolute timing system, but in reality, it’s a relative framework—a map of proportions and functions rather than a stopwatch.
 
-==== Notation vs. Expression, beyond Human Imperfection
+=== Notation vs. Expression, beyond Human Imperfection
 
 Since traditional rhythm notation (solfège) doesn’t capture the full scope of rhythmic expression. Elements such as feel, interpretation, and agogic nuance belong to the lived experience of rhythm, not to what’s written on the page. This gap often leads to the mistaken idea that expressive timing is merely a deviation from the “ideal” notation.
 
 In fact, the opposite is true: what is played or sung is often more precise than the notation itself, because performers embody the actual functional ratios, swings, and inflections that the notation can only approximate. The discrepancy highlights not the imprecision of humans, but rather the limitations of the notation system. Musical feel lives in this space between written abstraction and performed precision.
 
-==== Notation vs. Functional Reality
+=== Notation vs. Functional Reality
 A good example of this distinction is the case of swinging eighths: 
 
 

@@ -44,6 +44,9 @@ Thus, swing should be understood as tempo-dependent, living in a flexible zone b
 
 == Generalization of Swing
 
+
+
+
 === Extending to other subdivision systems
 The same principle applies far beyond two subdivisions: any beat can be subdivided unequally, producing characteristic patterns of _LONGS_ and _shorts_. For the sake of clarity, we’ll mostly work with just two categories—_LONG_ and _short_ notes—though in theory, subdivisions could also produce richer contrasts such as _short–Medium–LONG_.
 
@@ -63,6 +66,62 @@ $[2,1,1], [1,2,1], [1,1,2], [2,2,1], [2,1,2], "and" [1,2,2]$.
   #v(10pt)
   #image("Figures/triplet swings.png")
 
+=== Circle representation
+
+We represent beat subdivisions with a polygon inscribed in a circle. The circle is the beat cycle, taken clockwise. To align with gravity-based analogies, the downbeat is placed at 6 o’clock (bottom). Each vertex of the polygon corresponds to a moment in the beat cycle. Thus, a triplet subdivision is an equilateral triangle, a 4-subdivision a square, and so on. Notice that each figure is balanced, in the sense that it is symmetrical along a vertical axis.
+
+
+#v(10pt)
+
+#figure(
+  image("Figures/Figure 1.png"),
+)
+
+#v(10pt)
+
+=== Morphing
+
+We can depict the morphing from a straight (regular) polygon to a distorted (or swung at 100%) one obtained by combining 2:1 long–short ratios.
+
+
+Below:
+- morphings from the straight triplet to $[2,1,1]$ and $[1,1,2]$;
+- a straight 4-subdivision (square) to $[2,1,1,2]$;
+- a straight quintuplet (pentagon) to $[2,1,1,2,1]$.
+
+#v(10pt)
+
+#figure(
+  image("Figures/Figure 2.png"),
+)
+
+#v(10pt)
+
+=== Notation
+
+We can notate the swing type by adding a secondary notation layer above the subdivision structure of the beat. For example, in the case of a quarter-note beat, the subdivision system may consist of two eighth notes, three eighth-note triplets, or four sixteenth notes, and so on.
+
+In this added layer, longs are represented by a quaver (eighth note) and shorts by a semiquaver (sixteenth note). The amount of swing is indicated as a percentage, where 0% corresponds to the straight subdivision and 100% to the fully swung subdivision with a 2:1 long–short ratio (hence the quaver vs. semiquaver notation):
+
+
+#v(10pt)
+
+  #image("Figures/notation swing.png") 
+
+  #v(10pt)
+
+
+
+
+Morphing is indicated by a hairpin symbol < or >, indicating crescendo or decrescendo of the amount of swing:
+
+#v(10pt)
+
+  #image("Figures/notation morphing.png") 
+
+  #v(20pt)
+
+
 == Properties of Swing
 
 
@@ -71,11 +130,12 @@ $[2,1,1], [1,2,1], [1,1,2], [2,2,1], [2,1,2], "and" [1,2,2]$.
 // ************** GROOVE EFFECT ***********************
 // *****************************************************
 
-=== Groove Effect and Beat Depth
+=== Gravitational properties
+==== Groove Effect and Beat Depth
 #v(15pt)
 The groove effect and the depth of the beat are two closely related phenomena that together illuminate how swing shapes the listener's perception of pulse. We first examine the groove effect: the observation that swinging a subdivision system does not merely alter its internal spacing, but actively enforces a single, unambiguous interpretation of the beat. Where an even subdivision stream leaves the grouping structure open to arbitrary interpretation by the listener's brain, a swung stream makes the beat cycle unavoidable — audible even at audio rate as a sub-harmonic of the subdivision frequency. We then turn to the related but distinct concept of beat depth: the idea that the strength of the pulse, as a perceptual phenomenon, is itself a parameter that can be consciously modulated. Drawing on observations from performance practice, we argue that musicians can learn to adjust the amplitude of their inner pulse feel — shifting between a deep, vertical, wave-like sense of the beat and a more surface-level, horizontal, narrative perception of time. This capacity is central for example to performing rhythm modulations.
 
-==== The Unavoidable Pulse
+===== The Unavoidable Pulse
 
 If we ignore accents and pitch cues (such as strong beats being emphasized or
 low notes played on the beat), the ear is simply unable to identify the beat
@@ -109,7 +169,7 @@ properties of swing.
 
 #image("Figures/grooveEffect2.svg")
 
-==== Beat Depth
+===== Beat Depth
 
 Musical time is a flow. It is a continuum rather than a sequence of discretely
 measured points, and it is felt and experienced before it can be objectified or
@@ -157,12 +217,12 @@ continuous, deep, and enveloping pulse.
 // ************** GROOVE BALANCE ***********************
 // *****************************************************
 
-=== Phrasing and Groove Balance
+==== Phrasing and Groove Balance
 #v(15pt)
 
 Knowing the ratio of long and short values in a subdivision pattern is not enough to fully characterize its rhythmic feel. Every swinging subdivision also has a directional quality — a sense of whether its energy pushes toward the next beat or pulls away from the previous one. This property, which we call groove balance, has a direct and immediate effect on how a rhythm is perceived and experienced: it shapes the weight, momentum, and phrasing character of a rhythmic line. This chapter develops the tools needed to describe and measure groove balance. Starting from the distinction between landing and take-off motives in rhythmic phrasing, we derive a simple measure of groove balance and introduce a geometric representation of beat subdivisions that makes this property visually intuitive. We then turn to the question of notation, establishing the conventions and formal constraints that will be used throughout the rest of the course.
 
-==== Phrasing
+===== Phrasing
 Another important aspect of rhythmic feel is rhythmical phrasing. Musical motives can be grouped into two broad categories depending on how they relate to the beat:
 
 - Landing motives: motives that aim toward the beat and resolve on it.  
@@ -195,7 +255,7 @@ In take-off motives, by contrast, the notes between beats are felt as belonging 
 This distinction shapes how subdivisions are grouped in perception: the same sequence of notes can feel different depending on whether the listener or performer interprets them as falling into the beat or emerging from it. Phrasing is thus not only a matter of timing, but also of orientation and directionality in rhythm.
 
 
-==== Groove Balance
+===== Groove Balance
 This phrasing distinction also applies directly to swinging subdivisions.
 
 In jazz eighth-note swing, the energy is concentrated in the second half of the beat cycle. The short note drives forward into the following beat, so the subdivision is perceptually grouped toward the beat rather than away from it. In other words, swing eighths are experienced as landing motives: the long note sets up a trajectory, and the short note pushes into the beat that follows.
@@ -208,36 +268,7 @@ We can therefore assign a simple measure of groove balance:
 - Landing-type swinging subdivisions → positive groove balance
 - Take-off-type swinging subdivisions → negative groove balance
 
-==== Circle representation
 
-I represent beat subdivisions with a polygon inscribed in a circle. The circle is the beat cycle, taken clockwise. To align with gravity-based analogies, the downbeat is placed at 6 o’clock (bottom). Each vertex of the polygon corresponds to a moment in the beat cycle. Thus, a triplet subdivision is an equilateral triangle, a 4-subdivision a square, and so on. Notice that each figure is balanced, in the sense that it is symmetrical along a vertical axis.
-
-
-#v(10pt)
-
-#figure(
-  image("Figures/Figure 1.png"),
-)
-
-#v(10pt)
-
-==== Morphing and Groove Balance
-
-We can depict the morphing from a straight (regular) polygon to a distorted (or swung at 100%) one obtained by combining 2:1 long–short ratios.
-
-
-Below:
-- morphings from the straight triplet to $[2,1,1]$ and $[1,1,2]$;
-- a straight 4-subdivision (square) to $[2,1,1,2]$;
-- a straight quintuplet (pentagon) to $[2,1,1,2,1]$.
-
-#v(10pt)
-
-#figure(
-  image("Figures/Figure 2.png"),
-)
-
-#v(10pt)
 
 
 
@@ -247,31 +278,10 @@ As morphing starts, some figures get out of balance, gravity force is applied (v
 
 In the case of the square in the example above, swing (morphing) produces a figure that remains balanced with respect to the vertical axis. The positive groove balance in the first half of the beat cycle is offset by the negative groove balance in the second half, yielding an overall neutral groove balance.
 
-==== Notation
 
-We can notate the swing type by adding a secondary notation layer above the subdivision structure of the beat. For example, in the case of a quarter-note beat, the subdivision system may consist of two eighth notes, three eighth-note triplets, or four sixteenth notes, and so on.
+=== Harmonic properties
 
-In this added layer, longs are represented by a quaver (eighth note) and shorts by a semiquaver (sixteenth note). The amount of swing is indicated as a percentage, where 0% corresponds to the straight subdivision and 100% to the fully swung subdivision with a 2:1 long–short ratio (hence the quaver vs. semiquaver notation):
-
-
-#v(10pt)
-
-  #image("Figures/notation swing.png") 
-
-  #v(10pt)
-
-
-
-
-Morphing is indicated by a hairpin symbol < or >, indicating crescendo or decrescendo of the amount of swing:
-
-#v(10pt)
-
-  #image("Figures/notation morphing.png") 
-
-  #v(10pt)
-
-=== Consonance and Synchronicity
+==== Consonance and Synchronicity
 
 The consonance between two frequencies can be understood in terms of how often
 their phases align. When two periodic signals have a simple frequency ratio,
@@ -326,18 +336,17 @@ enhancing their sense of rhythmic consonance.
 
 Some paired (two-sided) swinging subdivision systems can maintain this increased
 synchronicity across the entire swing range (0%–100%), morphing through what I
-call the mirror effect.
-
+call the mirror effect, where applying swing to each side preserves or enhances
+phase alignment throughout the morph.
 Prominent examples include West African triplet–duplet pairings and Brazilian
 triplets–sixteenths,#footnote[disclaimer: When I refer to culturally specific
 materials (e.g., West African or Brazilian rhythms), I am not claiming to
 represent their full reality. My approach is to describe patterns and functions
 as they inspire me, with the hope that this lens offers a workable approximation
 and practical orientation — so I can interact with these traditions in a creative
-and respectful way.] where applying swing to each side preserves or enhances
-phase alignment throughout the morph:
+and respectful way.] 
 
-
+#v(20pt)
  #figure(
      image("Figures/mirror.png"))
 
@@ -347,7 +356,27 @@ Note that the two parts of the system have opposite groove balances and that
 their swing amount is also inverted and therefore will go in pairs:
 0%–100%, 20%–80%, 30%–70%, 50%–50%.
 
-==== Rhythmic meantone
+ #figure(
+  image("Figures/mirror2.png")
+)
+
+
+
+#v(20pt)
+
+
+
+==== Rhythmic meantone and the logarithmic feel
+In paired swinging subdivisions systems, we can assume that 50% of swing constitutes the midpoint, where both sides of the paired system have an equal swing amount. 
+
+This implies tha the ratio $r="LONG"/"SHORT
+"$ is the same for both systems.
+
+Solving the equation
+$ r=L/S=(2S)/L $
+we obtain $ r = sqrt(2) $
+
+The result suggests that the perception of the amount of swing is logaritmic, which is consistent with the Weber-Fechner law #footnote[Fechner, G.T. (1860). Elemente der Psychophysik. Leipzig: Breitkopf und Härtel.]. 
 
 === Potential Energy
 
