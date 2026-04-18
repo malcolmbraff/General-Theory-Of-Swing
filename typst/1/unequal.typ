@@ -1,2 +1,0 @@
-== Unequal subdivisions
-Swing feel arises whenever the subdivision grid of the beat is distorted, so that the subdivisions are no longer equal. In the familiar case of eighth notes, this is the contrast between straight and swinging eighths. 

@@ -147,3 +147,6 @@ There are two main approaches to practice and experience the *mirror*:
  #figure(
   image("Figures/mirror3b.png")
 )
+
+== Harmonic steps as cross rhythm
+== Rhythm modulation

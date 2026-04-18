@@ -404,3 +404,4 @@ we obtain $ r = sqrt(2) $
 The result suggests that the perception of the amount of swing is logaritmic, which is consistent with the Weber-Fechner law #footnote[Fechner, G.T. (1860). Elemente der Psychophysik. Leipzig: Breitkopf und Härtel.]. 
 
 ==== The Timbre of the Pulse
+===== Polytuplets

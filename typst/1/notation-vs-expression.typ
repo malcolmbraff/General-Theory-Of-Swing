@@ -1,5 +1,0 @@
-== Notation vs. Expression, beyond Human Imperfection
-
-Traditional rhythm notation (solfège) doesn’t capture the full scope of rhythmic expression. Elements such as feel, interpretation, and agogic nuance belong to the lived experience of rhythm, not to what’s written on the page. This gap often leads to the mistaken idea that expressive timing is merely a deviation from the “ideal” notation.
-
-In fact, the opposite is true: what is played or sung is often more precise than the notation itself, because performers embody the actual functional ratios, swings, and inflections that the notation can only approximate. The discrepancy highlights not the imprecision of humans, but rather the limitations of the notation system. Musical feel lives in this space between written abstraction and performed precision.
