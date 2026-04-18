@@ -1,4 +1,23 @@
 #include "title.typ"
+#set figure(numbering: "1")
+
+#show figure: it => {
+  if it.caption == none {
+    align(center)[
+      #it.body
+      #v(0.3em)
+      #emph[Figure #context it.counter.display()]
+    ]
+  } else { it }
+}
+#show figure.caption: it => {
+  v(0.5em)
+  text(size: 9pt, it)
+}
+
+#show figure: it => { v(10pt); it; v(10pt) }
+//#show figure.caption: emph
+
 #set heading(numbering: (..nums) => {
   let n = nums.pos()
   if n.len() == 1 { none }
@@ -18,7 +37,7 @@
 
 #outline(
   title: none,
-  depth: 4,
+  depth: 5,
   target: selector(heading).before(<book1>),
 )
 
@@ -38,7 +57,7 @@
 
 #outline(
   title: none,
-  depth: 4,
+  depth: 6,
   target: selector(heading).after(<book1>).before(<book2>),
 )
 
@@ -57,7 +76,7 @@
 ]
 #outline(
   title: none,
-  depth: 4,
+  depth: 5,
   target: selector(heading).after(<book2>).before(<book3>),
 )
 
@@ -70,13 +89,13 @@
   #v(0.5em)
   #text(size: 9pt, tracking: 3pt, fill: luma(150))[BOOK III]
   #v(0.3em)
-  #text(size: 12pt, weight: "bold")[Exercices]
+  #text(size: 12pt, weight: "bold")[Compositional Examples]
   #v(0.5em)
 ]
 
 #outline(
   title: none,
-  depth: 4,
+  depth: 5,
   target: selector(heading).after(<book3>).before(<book4>),
 )
 
