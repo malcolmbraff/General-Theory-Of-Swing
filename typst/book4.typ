@@ -4,4 +4,6 @@
 
 == math-fibonacci-swing <sec:math-fibonacci-swing>
 
+== double-modulation<sec:double-modulation>
+
 #include "book4-substitutions.typ"
