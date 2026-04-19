@@ -3,7 +3,7 @@
 #v(15pt)
 The groove effect and the depth of the beat are two closely related phenomena that together illuminate how swing shapes the listener's perception of pulse. We first examine the groove effect: the observation that swinging a subdivision system does not merely alter its internal spacing, but actively enforces a single, unambiguous interpretation of the beat. Where an even subdivision stream leaves the grouping structure open to arbitrary interpretation by the listener's brain, a swung stream makes the beat cycle unavoidable — audible even at audio rate as a sub-harmonic of the subdivision frequency. We then turn to the related but distinct concept of beat depth: the idea that the strength of the pulse, as a perceptual phenomenon, is itself a parameter that can be consciously modulated. Drawing on observations from performance practice, we argue that musicians can learn to adjust the amplitude of their inner pulse feel — shifting between a deep, vertical, wave-like sense of the beat and a more surface-level, horizontal, narrative perception of time. This capacity is central for example to performing rhythm modulations.
 
-#heading(level: 6, numbering: none, outlined: true)[The Unavoidable Pulse]
+#heading(level: 5, numbering: none, outlined: true)[The Unavoidable Pulse]
 
 If we ignore accents and pitch cues (such as strong beats being emphasized or
 low notes played on the beat), the ear is simply unable to identify the beat
@@ -38,7 +38,7 @@ properties of swing.
 #image("Figures/grooveEffect2.svg")
 
 
-#heading(level: 6, numbering: none, outlined: true)[Beat Depth]
+#heading(level: 5, numbering: none, outlined: true)[Beat Depth]
 
 Musical time is a flow. It is a continuum rather than a sequence of discretely
 measured points, and it is felt and experienced before it can be objectified or
@@ -91,7 +91,7 @@ continuous, deep, and enveloping pulse.
 
 Knowing the ratio of long and short values in a subdivision pattern is not enough to fully characterize its rhythmic feel. Every swinging subdivision also has a directional quality — a sense of whether its energy pushes toward the next beat or pulls away from the previous one. This property, which we call groove balance, has a direct and immediate effect on how a rhythm is perceived and experienced: it shapes the weight, momentum, and phrasing character of a rhythmic line. This chapter develops the tools needed to describe and measure groove balance. Starting from the distinction between landing and take-off motives in rhythmic phrasing, we derive a simple measure of groove balance and introduce a geometric representation of beat subdivisions that makes this property visually intuitive. We then turn to the question of notation, establishing the conventions and formal constraints that will be used throughout the rest of the course.
 
-#heading(level: 6, numbering: none, outlined: true)[Phrasing]
+#heading(level: 5, numbering: none, outlined: true)[Phrasing]
 
 Another important aspect of rhythmic feel is rhythmical phrasing. Musical motives can be grouped into two broad categories depending on how they relate to the beat:
 
@@ -118,7 +118,7 @@ In take-off motives, by contrast, the notes between beats are felt as belonging 
 
 This distinction shapes how subdivisions are grouped in perception: the same sequence of notes can feel different depending on whether the listener or performer interprets them as falling into the beat or emerging from it. Phrasing is thus not only a matter of timing, but also of orientation and directionality in rhythm.
 
-#heading(level: 6, numbering: none, outlined: true)[Groove Balance]
+#heading(level: 5, numbering: none, outlined: true)[Groove Balance]
 
 This phrasing distinction also applies directly to swinging subdivisions.
 

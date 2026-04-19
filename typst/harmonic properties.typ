@@ -1,6 +1,6 @@
-=== Harmonic Properties
+=== Harmonic Properties <sec:harmonic-properties>
 
-#heading(level: 6, numbering: none, outlined: true)[Pitch and Rhythm: Continuum and Greyzone]
+#heading(level: 5, numbering: none, outlined: true)[Pitch and Rhythm: Continuum and Greyzone]
 
 The properties examined in this chapter rest on a relation between rhythm
 and pitch that is, at the physical level, a relation of strict continuity.
@@ -10,7 +10,7 @@ domain. Understanding this dual structure — physical continuity,
 perceptual discontinuity — is necessary groundwork for the analogy that
 organizes what follows.
 
-#heading(level: 6, numbering: none, outlined: true)[Physical Continuity]
+#heading(level: 5, numbering: none, outlined: true)[Physical Continuity]
 
 
 A rhythmic pulsation and a pitched tone are not categorically different
@@ -32,7 +32,7 @@ into pitch. The present work takes this physical continuity as its
 starting point, but it departs from earlier projects by taking seriously
 what happens when one turns from physics to perception.
 
-#heading(level: 6, numbering: none, outlined: true)[Perceptual Discontinuity]
+#heading(level: 5, numbering: none, outlined: true)[Perceptual Discontinuity]
 
 
 The auditory system, by contrast, operates with (at least) two distinct
@@ -45,7 +45,7 @@ Krumbholz, 2001). I refer to it more broadly as the _greyzone_, to
 emphasize its role as a perceptual gap between two otherwise structured
 domains.
 
-#heading(level: 6, numbering: none, outlined: true)[Two Functional Ranges]
+#heading(level: 5, numbering: none, outlined: true)[Two Functional Ranges]
 
 
 To make sense of this gap, it is useful to distinguish, in each domain,
@@ -65,7 +65,7 @@ than the absolute range. A pitch can be heard as low or high long before
 it can be heard as the third of a chord; a series of clicks can be heard as
 a sequence long before it can be heard as carrying a groove or a meter.
 
-#heading(level: 6, numbering: none, outlined: true)[The Greyzone]
+#heading(level: 5, numbering: none, outlined: true)[The Greyzone]
 
 
 The lower limit of pitch perception is established at approximately 30 Hz
@@ -93,7 +93,7 @@ region in which periodic events are physically present and acoustically
 perceived, but neither rhythmically nor harmonically structured. It is a
 perceptual gap in an otherwise continuous physical domain.
 
-#heading(level: 6, numbering: none, outlined: true)[Consequence for the Analogy]
+#heading(level: 5, numbering: none, outlined: true)[Consequence for the Analogy]
 
 
 This double structure — physical continuum, perceptual discontinuity,
@@ -134,7 +134,7 @@ article currently in preparation for the _Journal of Mathematics and
 Music_.]
 
 
-#heading(level: 6, numbering: none, outlined: true)[Consonance and Synchronicity]
+#heading(level: 5, numbering: none, outlined: true)[Consonance and Synchronicity]
 
 The consonance between two frequencies can be understood in terms of how often
 their phases align. When two periodic signals have a simple frequency ratio,
@@ -195,7 +195,7 @@ values, closer still. The two onsets never coincide exactly short of
 100% swing, but they enter each other's _neighbourhood_, and that
 proximity is what makes the harmonic relation audible.
 
-#heading(level: 6, numbering: none, outlined: true)[Tolerance and Neighborhood]
+#heading(level: 5, numbering: none, outlined: true)[Tolerance and Neighborhood]
 
 The question, then, is how close is close enough. Two onsets that are
 physically distinct can nevertheless be heard as _synchronous_ — as a
@@ -231,7 +231,7 @@ overlap is precisely what makes multifunctional harmonicity possible
 in the rhythmic domain — a point developed at length in the sections
 on tempering.
 
-#heading(level: 6, numbering: none, outlined: true)[Three Cases]
+#heading(level: 5, numbering: none, outlined: true)[Three Cases]
 
 The mechanism is best understood through cases. I present three, of
 increasing structural complexity.
@@ -290,7 +290,7 @@ exploiting the width — the Q factor — of the perceptual window. A
 detailed analysis is provided in Book II.#footnote[See
 standard-of-love for the full analysis.]
 
-#heading(level: 6, numbering: none, outlined: true)[Application to Polyrhythmic Design]
+#heading(level: 5, numbering: none, outlined: true)[Application to Polyrhythmic Design]
 
 Viewed the other way round, the principle has a direct compositional
 use: it offers a method for _designing polyrhythms_. A composer or
@@ -326,7 +326,7 @@ single morphing action tunes two layers simultaneously, so that phase
 alignment is maintained at every intermediate position — not only at 0%
 and 100%. I call this the _mirror effect_.
 
-#heading(level: 6, numbering: none, outlined: true)[Structural Properties of the Pair]
+#heading(level: 5, numbering: none, outlined: true)[Structural Properties of the Pair]
 
 Two sides of a mirror pair share two mutually reinforcing properties:
 their _groove balances_ are opposite (one side lands on the pulse while
@@ -370,7 +370,7 @@ privileged vehicle for _continuous metric modulation_: one can travel
 the entire morphing path between two meters without ever leaving a
 state of exact harmonic alignment between the two layers.
 
-#heading(level: 6, numbering: none, outlined: true)[Compositional Exploration: Morph Congas]
+#heading(level: 5, numbering: none, outlined: true)[Compositional Exploration: Morph Congas]
 
 Mirror pairs exist in far greater number than any single tradition
 deploys. Part of my compositional work has been to explore regions of
@@ -391,7 +391,7 @@ of the pair are balanced. Unpacking this fixed point, and the ratio it
 implies between long and short elements, is the starting point of the
 next section.
 
-==== Tempering
+==== Tempering <sec:tempering>
 In paired swinging subdivisions systems, we can assume that 50% of swing constitutes the midpoint, where both sides of the paired system have an equal swing amount. 
 
 This implies tha the ratio $r="LONG"/"SHORT

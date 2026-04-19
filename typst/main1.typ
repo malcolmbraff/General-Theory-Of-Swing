@@ -152,6 +152,8 @@
 // Intro and Foreword
 //-------------------
 
+#set par(justify: true)
+
 #pagebreak()
 
 #include "foreword.typ"
