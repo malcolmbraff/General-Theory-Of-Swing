@@ -23,3 +23,6 @@ Two complementary modes of rhythmic organisation can be read off this framework,
        - potential energy (définie en ch. 3 comme propriété 
          gravitationnelle: ∝ Σ(Δx_i)²)
       Placeholder renvoyant au chapitre sur la thèse Huguenin]
+
+
+      
