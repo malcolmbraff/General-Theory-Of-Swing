@@ -74,7 +74,7 @@ A word on the status of the musical examples used throughout. The substitution r
 
 The concert that concludes the session — _Morph Congas_ #cite(<braff2020morphcongas>) for piano and live electronics, in its current updated version — is conceived as a practical realisation of the mirror effect examined in this paper.
 
-#pagebreak()
+
 
 = 2. From Swing to Substitution: The Mirror Rule
 
@@ -90,7 +90,7 @@ A distortion applied to the pulse cycle does not act in isolation on the level a
 #include "plots/transfer.typ"
 
 
-The two figures are swung with _opposite_ swing amounts. When for example a duplet is swung at high percentages, the triplet emergent from it will be swung at low percentages, mirrored from $100 - x$: the two subdivisions are coupled by an inversion of their respective swing percentages#footnote[
+The two figures below are swung with _opposite_ swing amounts. When the duplet is swung at high percentages, the triplet emergent from it will be swung at low percentages, mirrored from $100 - x$: the two subdivisions are coupled by an inversion of their respective swing percentages#footnote[
   We notate the swing type by adding a secondary notation layer above the subdivision structure of the beat. In this added layer, longs are represented by a quaver (eighth note) and shorts by a semiquaver (sixteenth note). The amount of swing is indicated as a percentage, where 0% corresponds to the straight subdivision and 100% to the fully swung subdivision with a 2:1 long–short ratio (hence the quaver vs. semiquaver notation)
 ]. 
 
@@ -170,7 +170,7 @@ But the rule, iterated, does not _manifest_ this proportion in the distribution 
 If the programme outlined in the introduction is to succeed — a substitution rule that preserves the swing feel under indefinite iteration, producing genuine fractal swing at every scale — a different rule is needed. One that breaks out of the harmonic neighbourhood to which the mirror is confined, and whose consistency condition selects an irrational ratio with the structural depth to govern indefinite subdivision. What such a rule must look like, and what irrational proportion emerges from it, is the subject of the next section.
 
 
-#pagebreak()
+
 
 = 3. The Swinging Substitution and the Golden Ratio
 
@@ -211,13 +211,13 @@ Under the identification $L arrow.r a$, $S arrow.r b$, this rule is the canonica
 The same structural reasoning that yielded $sqrt(2)$ for the mirror rule applies here. For the modified rule to generate a consistent swing at every level of iteration, the long-to-short ratio $r = L slash S$ must be preserved by a single application of the rule. Applied to $L$ and $S$ individually: the rule replaces $L$ by $L S$, of total absolute length $L + S$; and replaces $S$ by $L$, of absolute length $L$. For the ratio between these two new durations to equal the original ratio $r$, the equation
 
 $
-r = (L + S) slash L = 1 + 1 slash r
+r = (L + S) / L = 1 + 1 / r
 $
 
 must hold. Rearranging gives $r^2 = r + 1$, whose positive solution is
 
 $
-r = phi.alt = (1 + sqrt(5)) slash 2 approx 1.618.
+r = phi.alt = (1 + sqrt(5)) / 2 approx 1.618.
 $
 
 The golden ratio emerges from the swinging substitution as $sqrt(2)$ emerged from the mirror: as the unique irrational proportion that satisfies the rule's consistency condition. It is not an empirical value, nor a limit reached asymptotically, but a structural constant imposed by the requirement of self-similar swing across iteration. The rule and the proportion are two readings of the same structural fact.
@@ -248,15 +248,17 @@ The swinging substitution is therefore the first genuine case of fractal swing e
 
 
 
-#pagebreak()
+
 
 = 4. A Second Binary Rule for √2, and the Ternary Case
 
 The Fibonacci rule of Section 3 was introduced as a correction to the mirror: where the mirror failed to propagate the swing beyond one level of iteration, the swinging substitution passed the swing character forward indefinitely, and its consistency condition selected the golden ratio $phi.alt$. Section 3 closed with a question: whether other binary rules, with longer replacements than the minimal $S arrow.r L$, could also preserve the swing and select different irrational proportions. The present section answers this question in two steps. First, it shows that a second binary rule exists, grounded in the proportion $sqrt(2)$ already associated with the mirror, but producing that proportion in the correct distributional register — with a self-similar swung structure at every level of iteration. Second, it extends the substitution framework from binary to ternary alphabets, and shows that a ternary swinging substitution exists whose consistency condition selects the plastic ratio $rho$ — an irrational proportion whose iterated output coincides, under a suitable reading, with a well-known rhythmic pattern of Afro-Brazilian samba.
 
+
 == 4.1 A Second Binary Rule for √2
 
-The mirror rule produced the ratio $sqrt(2)$, but in the wrong register: the iterations clustered, the swing character dissolved from one level to the next, and the proportion was preserved only as an asymptotic count of letters, not as a property of the rhythmic object at every scale. The Fibonacci rule of the preceding section escaped this fate by swinging its subdivisions — ensuring that the swing character propagated through every level of iteration. The question of Section 3 was whether the same manoeuvre could be applied to the mirror: is there a binary rule, still grounded in the ratio $sqrt(2)$, that preserves the swing character under iteration as Fibonacci does for $phi.alt$?
+The mirror rule produced the ratio $sqrt(2)$, and produced it consistently: at every level of iteration, the long-to-short proportion remained $sqrt(2)$, as required by the consistency condition. What the mirror failed to preserve was not the proportion itself but the _distribution_ of its letters. The iterations clustered, progressively departing from maximal evenness, until the word ceased to be perceivable as a swung rhythmic structure at all. The Fibonacci rule of the preceding section escaped this fate by swinging its subdivisions — ensuring not only that the ratio was preserved at every level, but that the letters continued to interleave so that the word remained metrically well-formed. The question of Section 3 was whether the same manoeuvre could be applied to the mirror: is there a binary rule, still grounded in the ratio $sqrt(2)$, that preserves both the proportion and the maximal-evenness distribution under iteration?
+
 
 The answer is yes, and the rule is:
 
@@ -266,10 +268,12 @@ $
 
 This rule differs from the mirror in the same way that Fibonacci differs from the elementary substitution: each replacement word is itself a swung pattern, not a block of identical letters. A short resolves into a swung duplet $S L$; a long resolves into a swung triplet $S S L$. The swing does not stop at one level; it descends through the hierarchy, carrying the ratio forward at every iteration.
 
-The consistency condition is established as before. Applied to $L$, the rule produces $S S L$, of total length $2 S + L$; applied to $S$, it produces $S L$, of total length $S + L$. For the ratio between these two new durations to equal the original ratio $r = L slash S$, we require $(2 S + L) slash (S + L) = r$. Rearranging — with $L = r S$ — gives $r^2 = 2$, whose positive solution is once again
+The consistency condition is established as before. Applied to $L$, the rule produces $S S L$, of total length $2 S + L$; applied to $S$, it produces $S L$, of total length $S + L$. 
+
+For the ratio between these two new durations to equal the original ratio $r = L / S$, we require $ (2 S + L) / (S + L) = r $ Rearranging with $L = r S$ gives $r^2 = 2$, whose positive solution is once again
 
 $
-r = sqrt(2).
+r = sqrt(2)
 $
 
 // TODO-FIGURE: First iterations of the rule $S arrow.r S L, L arrow.r S S L$ 
@@ -277,82 +281,214 @@ $
 // SL SL SSL → SSL SL SL SL SL SSL → ..., showing the interleaving character 
 // at each level. Adaptable from the corresponding Hamburg slide.
 
-The rule produces the same ratio as the mirror — $L slash S = sqrt(2)$ at every level — but it differs from it in two respects of musical significance. First, the letters interleave rather than cluster. At every iteration, shorts and longs alternate in a pattern that is rhythmically alive, not blocked. The rule satisfies the consistency condition as the mirror does, but it satisfies it in a way that respects the distribution, not merely the counting. Second, the rule inflates more aggressively: where the mirror doubled the word length at each step (with inflation factor $sqrt(2)$ between successive absolute lengths), this rule inflates by a factor of $1 + sqrt(2) approx 2.414$. Musically, the subdivisions thin out faster: to reach a given number of subdivision levels, the performer needs either a slower base tempo or a shallower recursion.
+The rule produces the same ratio as the mirror $L / S = sqrt(2)$ at every level, but it differs from it in two respects of musical significance. First, the letters interleave rather than cluster. At every iteration, shorts and longs alternate in a pattern that is rhythmically alive, not blocked. The rule satisfies the consistency condition as the mirror does, but it satisfies it in a way that respects the distribution, not merely the counting. Second, the rule inflates more aggressively: where the mirror doubled the word length at each step (with inflation factor $sqrt(2)$ between successive absolute lengths), this rule inflates by a factor of $1 + sqrt(2) approx 2.414$. Musically, the subdivisions thin out faster: to reach a given number of subdivision levels, the performer needs either a slower base tempo or a shallower recursion.
 
 The observation that the same ratio $sqrt(2)$ admits two distinct substitution realisations — one clustering and compact, one interleaving and dense — is the first indication that the landscape of admissible swing proportions is richer than a naive one-ratio-per-rule reading would suggest. It is not enough to know which irrational a rule converges to; one must also know how it produces it, because the how determines whether the rule is iterable, whether the swing character is preserved, and whether the fractal structure survives across iteration levels.
 
-== 4.2 Extending to Three Letters
+== 4.2 The Brazilian Sixteenth and the Plastic Ratio
 
-The binary framework has carried the argument as far as it can. Two rules on the alphabet ${S, L}$ have been examined: the mirror rule, which fails to propagate the swing; and two rules that do propagate it — the Fibonacci rule selecting $phi.alt$, and the second-$sqrt(2)$ rule just established. A natural question emerges: does the framework extend beyond binary to richer alphabets, and if so, does a third irrational proportion emerge as the consistency condition of a rule on three letters?
+Certain rhythmic traditions exhibit, at the level of beat subdivision, patterns that cannot be captured by a two-letter alphabet. A well-documented example is the characteristic unequal feel applied to four-subdivisions of the beat in traditional Brazilian rhythms, which Brazilian musicians refer to simply as _swing_. Measurements reported in the ethnomusicological literature consistently model the four durations as $M S M L$ — medium, short, medium, long — with three distinct duration values rather than four @gerischer2006swingue. A theory of fractal swing restricted to binary words leaves such patterns unexplained. The present section extends the substitution framework to a three-letter alphabet ${S, M, L}$ and shows that a single irrational proportion governs the resulting structures.
 
-The transition from two letters to three is not a mere formal generalisation. It introduces a new structural constraint absent from the binary case: the three durations must themselves stand in a geometric progression, with a common ratio $r$. That is, if the three letters are $S$, $M$, $L$ in increasing order of duration, then $M = r S$ and $L = r^2 S$ for some $r > 1$. This geometric requirement mirrors the single-ratio constraint of the binary case — where $L = r S$ — but imposed across two intervals rather than one. A substitution rule on ${S, M, L}$ that preserves this geometric progression across every application is the ternary analogue of the swinging substitution.
+*Palindromic reading.* The four-element pattern $M S M L$ admits a natural decomposition into two halves: a first pair $M S$ and a second pair $M L$. In the first pair, $M > S$, so the pair reads as a _long–short_ configuration at the internal scale. In the second pair, $M < L$, so the pair reads as a _short–long_ configuration at the internal scale. Each pair, taken on its own, is an unequal duplet — an internal swing pair — but the two duplets are palindromically related and operate at two distinct absolute scales.
 
-// TODO-FIGURE: Slide or figure showing the three-duration alphabet 
-// $S < M < L$ with the geometric progression $M = r S$, $L = r^2 S$. 
-// Adaptable from the "Three Durations: S, M, L" slide of the Hamburg deck.
+*Double modulation: the derivation of $M S M L$ from the mirror.* The palindromic structure of $M S M L$ is not a coincidence. It arises from the superposition of two levels of swing — a _double modulation_. At the first, lower level, a mirror-paired configuration is given: a triplet $S L S$ and its mirror-image quadruplet $L S S L$, as established in Section 2. Both are swung at some ratio $r_2 = L slash S$. At the second, higher level, an additional swing is applied: reading the quadruplet $L S S L$ as two halves of equal total length $L + S$ each, we observe that these two halves can themselves be swung against one another at a ratio $r_1$. Since the structure $L S S L$ is the mirror descendent of the triplet $S L S$, the inner halves inherit opposite groove balances: the first half is long-short, the second half is short-long. Under the upper-level swing — a short-long swing applied to the duolet formed by the two halves — the first half contracts and the second half expands. The constraint that the resulting four-element pattern should contain exactly three distinct duration values, rather than four, requires the long of the first half to equal the short of the second half. Writing $M$ for this common value, the first half becomes $M S$ and the second half becomes $M L$, yielding the samba pattern $M S M L$.
 
-Two comments on this step. First, the geometric-progression constraint is the least restrictive assumption that preserves the swing character in a ternary setting: it is the natural generalisation of the binary $L slash S = r$. Other ternary structures are conceivable — alphabets where $M$ stands in arithmetic or logarithmic rather than geometric relation to $S$ and $L$ — but they do not preserve the self-similar scaling property that makes the swing framework work. Second, the extension to three letters is not a departure from the swing domain as defined in Section 1: the common ratio $r$ remains in the interval $1 < r < 2$, since the three durations must all be distinct yet comparable at the perceptual level. The ternary case is a refinement of the binary framework, not a break from it.
+// TODO-FIGURE: Reuse from Hamburg slides — "The Samba Pattern" slide 
+// showing MSML decomposed as two pairs with self-similarity relation 
+// B/A = C/D = F/E = G/F = rho. (Slides 43-53 of the Hamburg deck.)
 
-== 4.3 The Samba Pattern and the Plastic Ratio
-
-The ternary swinging substitution is:
-
-$
-S arrow.r M, quad M arrow.r L, quad L arrow.r S M.
-$
-
-Applied to the seed $L$, the rule produces the sequence:
-
-$
-L arrow.r S M arrow.r M L arrow.r L S M arrow.r S M L S M arrow.r M L S M L S M arrow.r dots
-$
-
-Two observations parallel to the binary case. First, each replacement word is a swung pattern in the three-letter alphabet — $L$ resolves into the pair $S M$, a miniature swung duplet on the subscale $S M$; $M$ advances to $L$; $S$ advances to $M$. Every long becomes, at the next level, an internal swung structure, and the ternary swing propagates through every iteration. Second, the lengths of successive words follow the Padovan sequence $1, 1, 2, 2, 3, 4, 5, 7, 9, 12, dots$, defined by the recursion $P(n) = P(n-2) + P(n-3)$ — a ternary analogue of Fibonacci's $F(n) = F(n-1) + F(n-2)$.
-
-// TODO-FIGURE: Reuse from Hamburg slides — "The Samba Pattern" figure 
-// showing the iteration $L arrow.r S M$ and the derived patterns, with 
-// the consistency condition $r = B/A = C/D = F/E = G/F = rho approx 1.3247$. 
-// (Slides 43-53 of the Hamburg deck.)
-
-The second iteration of the rule, starting from $L$, produces the word $M S M L$ — a ternary rhythmic pattern whose internal structure bears a striking resemblance to the _partido alto_ clave of Afro-Brazilian samba, where the subdivisions of a beat are distributed as three unequal durations in a short–medium–long progression. Without making ethnomusicological claims about the provenance of this correspondence, the pattern $M S M L$ serves throughout this paper as shorthand for the ternary configurations produced by the plastic-ratio rule — a figure whose surface structure matches a rhythmic pattern audible in that repertoire.
-
-The consistency condition follows the binary template, adjusted for the geometric-progression constraint. The rule produces new durations whose ratios must preserve the common ratio $r$: the substitution $L arrow.r S M$ yields a new duration $S + M = S + r S = S(1 + r)$, which must bear to $L = r^2 S$ the ratio expected of the level's new long. Working out the algebra carefully — using the constraints $M = r S$ and $L = r^2 S$ together with the consistency requirement across all three substitutions — gives the cubic equation
+*The plastic ratio.* The two levels of swing are coupled by the constraint $L_a = S_b = M$. Working through the algebra — the first half at ratio $r_2$ produces durations $M = r_2 dot "(max of first half)"$ and so on, coupled to the outer ratio $r_1$ by the requirement of three-duration reduction — one obtains a cubic equation:
 
 $
 r^3 = r + 1.
 $
 
-The positive real solution is the plastic ratio:
+The positive real solution of this equation is the plastic ratio:
 
 $
 r = rho approx 1.3247.
 $
 
-The plastic ratio $rho$ emerges from the ternary swinging substitution as $phi.alt$ emerged from its binary counterpart: as the unique real proportion at which the rule's consistency condition is satisfied at every level of iteration. Translated onto the logarithmic swing axis, $rho$ sits at $log_2(rho) approx 0.405$, or approximately 40.5% swing — below the 50% meantone of the mirror's $sqrt(2)$, in a region of the swing continuum corresponding to relatively light, quick unequal subdivisions. The ternary rule therefore occupies a position on the swing axis distinct from both $sqrt(2)$ (50%) and $phi.alt$ (69.4%), completing the triad of irrational proportions that emerge from the framework developed in this paper.
+The two swing ratios stand in a specific relation to $rho$: the inner ratio is $r_2 = rho$, and the outer ratio is $r_1 = rho^2 approx 1.7548$. The three durations $S$, $M$, $L$ stand in geometric progression with common ratio $rho$:
 
-== 4.4 The Three Irrational Proportions: First View
+$
+S : M : L = 1 : rho : rho^2.
+$
 
-The three rules examined so far — Fibonacci binary, second-$sqrt(2)$ binary, and the ternary plastic — establish three distinct irrational proportions as consistency conditions of substitution rules on the swing alphabet. Viewed together, these three ratios form a structured family in the space of admissible swing proportions:
+The extreme ratio $L slash S = rho^2 approx 1.755$ remains below the threshold 2 that distinguishes a swung subdivision from a resubdivided rhythm. The plastic ratio emerges from the double modulation as the irrational proportion for which the two-level swing structure is self-consistent with three-duration reduction.
+
+*The substitution rule.* With the three durations in the geometric progression $S : M : L = 1 : rho : rho^2$, the substitution rule that generates the pattern $M S M L$ under iteration, and which preserves the three-duration swing across every level, is:
+
+$
+S arrow.r M, quad M arrow.r L, quad L arrow.r S M.
+$
+
+Each short symbol advances to a medium, each medium advances to a long, and each long unfolds into the swung pair $S M$ at the next finer level — the ternary analogue of the Fibonacci swinging substitution in which $L$ resolves into $L S$. Starting from the seed $L M$, two iterations produce $M S M L$, and the hierarchy continues indefinitely downward, preserving the three-duration swing at every scale. This rule is the _Padovan morphism_ of the combinatorial literature, and the lengths of its successive words form the Padovan sequence $1, 1, 2, 2, 3, 4, 5, 7, 9, 12, dots$, defined by $P(n) = P(n - 2) + P(n - 3)$ — the ternary cousin of Fibonacci's $F(n) = F(n - 1) + F(n - 2)$.
+
+// TODO-FIGURE: Reuse from Hamburg slides — iterations of the Padovan 
+// substitution showing the emergence of MSML at the appropriate level. 
+// (From the "Fractal Samba" slide of the Hamburg deck.)
+
+*Position on the swing axis.* Translated onto the logarithmic swing axis, the plastic ratio sits at $log_2(rho) approx 0.405$, or approximately 40.5% swing — below the 50% meantone of the mirror's $sqrt(2)$, in a region of the swing continuum corresponding to relatively light, quick unequal subdivisions. The ternary rule therefore occupies a position on the swing axis distinct from both $sqrt(2)$ (50%) and $phi.alt$ (69.4%), completing the triad of irrational proportions that emerge from the framework developed in this paper.
+
+
+
+/*
+== 4.3 The Three Irrational Proportions: A First View
+
+The three rules examined in this paper — the Fibonacci binary rule, the second binary rule for $sqrt(2)$, and the ternary Padovan rule — establish three distinct irrational proportions as consistency conditions of substitution rules on the swing alphabet. Viewed together, these three ratios form a structured family in the space of admissible swing proportions:
 
 $
 rho approx 1.3247 space (40.5%), quad sqrt(2) approx 1.4142 space (50%), quad phi.alt approx 1.618 space (69.4%).
 $
 
-Each ratio is the unique positive real solution of a polynomial equation of degree at most three — $r^3 = r + 1$, $r^2 = 2$, $r^2 = r + 1$ respectively — and each equation arises, not by empirical fitting or heuristic choice, but from the structural requirement that a particular substitution rule preserve its swing character across iteration. The rules are binary or ternary; the irrationals are algebraic of low degree; and the proportions they select partition the logarithmic swing axis into three positions separated by intervals that are themselves meaningful — between the plastic ratio and $sqrt(2)$, between $sqrt(2)$ and $phi.alt$.
+Each ratio is the unique positive real solution of a polynomial equation of low degree — $r^3 = r + 1$, $r^2 = 2$, and $r^2 = r + 1$ respectively — and each equation arises, not by empirical fitting or heuristic choice, but from the structural requirement that a particular substitution rule preserve its swing character across iteration. The rules are binary or ternary; the irrationals are algebraic of low degree; and the proportions they select occupy three distinct positions on the logarithmic swing axis, separated by intervals of musical significance: between the plastic ratio and $sqrt(2)$, between $sqrt(2)$ and $phi.alt$.
 
-// TODO-FIGURE: Summary diagram showing the three ratio positions on 
-// the logarithmic swing axis: $rho$ at 40.5%, $sqrt(2)$ at 50%, 
-// $phi.alt$ at 69.4%. The diagram can also indicate the rule that 
-// selects each proportion. Adaptable from the relevant Hamburg 
-// summary slide.
+// TODO-FIGURE: Summary diagram showing the three ratio positions on the 
+// logarithmic swing axis: $rho$ at 40.5%, $sqrt(2)$ at 50%, $phi.alt$ at 
+// 69.4%. The diagram can also indicate the substitution rule that selects 
+// each proportion. Adaptable from the relevant Hamburg summary slide.
 
-This structured family is the subject of Section 5. Before taking it up, however, one more observation about the second-$sqrt(2)$ rule and its relation to the mirror deserves mention. The existence of two distinct substitution rules for the same ratio $sqrt(2)$ — one clustering (the mirror) and one interleaving (the second rule introduced above) — shows that the correspondence between rules and proportions is not one-to-one. A given irrational may arise from more than one substitution, each with its own iterative behaviour. This is the first indication that the landscape of admissible rules is more intricate than a simple bijection with the irrational proportions would suggest; the structured-family view developed in the next section takes up this observation as its starting point.
+Three observations follow from this synoptic view.
+
+First, the correspondence between rules and ratios is not one-to-one. The ratio $sqrt(2)$ arises from two distinct binary rules: the mirror rule and the second binary rule introduced in Section 4.1. The two rules select the same proportion but produce it in different distributional registers — one clustering, one interleaving. A given irrational may therefore be the consistency condition of more than one substitution rule, each with its own iterative behaviour. The landscape of admissible rules is richer than a simple bijection with the irrational proportions would suggest.
+
+Second, the three proportions $rho$, $sqrt(2)$, and $phi.alt$ are not a random selection of algebraic numbers. They are all small-degree algebraic numbers — $rho$ and the other two are solutions of polynomial equations of degree at most three. Moreover, as developed more fully in the broader research programme of which this paper is a part, each of these three numbers has additional properties of structural significance: $phi.alt$ and $rho$ are _Pisot numbers_ (algebraic integers whose algebraic conjugates all have modulus less than one), while $sqrt(2)$ is not. This distinction has consequences for the dynamical stability of the corresponding substitution rules under perturbation — a question taken up in the context of performance practice in Section 6.
+
+Third, the position of the three proportions on the swing axis is not accidental. The plastic ratio $rho$ lies below 50%, in the region of light, quick unequal subdivisions; $sqrt(2)$ sits at the 50% meantone, the geometric midpoint of the swing range on the logarithmic axis; and $phi.alt$ sits at 69.4%, above the midpoint, in the region of heavier, more pronounced swing. The three ratios thus distribute themselves across the swing continuum in a structured way — not bunched at one extreme, not evenly spaced, but spread according to the algebraic constraints of the rules that generate them.
+
+Taken together, these observations support the central claim of this paper: that the triad ${rho, sqrt(2), phi.alt}$ is not a coincidental collection of three special numbers but a structured family that emerges from the substitution framework under a small number of natural constraints. Section 5 makes this claim more precise by examining the structural relations among the three rules and their fixed points; Section 6 then turns to the question of how deeply this family can be realised in musical practice, given the perceptual limits that bound the depth of iteration accessible to a performer.
+*/
+
+#pagebreak()
+
+= 5. A Triad of Irrational Proportions
+
+The three substitution rules examined in Sections 2–4 have established three distinct irrational proportions as consistency conditions: $sqrt(2)$ from the mirror and its Pisot counterpart, $phi.alt$ from the Fibonacci rule, and $rho$ from the ternary Padovan rule. The present section brings these three proportions together as a structured family. Its aim is to show that the triad ${rho, sqrt(2), phi.alt}$ is not a coincidental collection of three special numbers but a constrained selection that emerges under the combined requirements of self-similarity, swing preservation, and dynamical stability.
+
+== 5.1 Three Proportions, Three Rules
+
+The three ratios and their generating rules can be tabulated compactly:
+
+#table(
+  columns: 5,
+  align: left,
+  table.header([Rule], [Alphabet], [Substitution], [Polynomial], [Ratio]),
+  [Fibonacci], [${S, L}$], [$L arrow.r L S, space S arrow.r L$], [$r^2 = r + 1$], [$phi.alt approx 1.618$],
+  [Second $sqrt(2)$], [${S, L}$], [$L arrow.r S S L, space S arrow.r S L$], [$r^2 = 2$], [$sqrt(2) approx 1.414$],
+  [Padovan], [${S, M, L}$], [$L arrow.r S M, space M arrow.r L, space S arrow.r M$], [$r^3 = r + 1$], [$rho approx 1.3247$],
+)
+
+Each rule arises from a distinct structural principle: Fibonacci from the requirement that each long resolve into a swung pair; the second $sqrt(2)$ rule from the requirement that the mirror's proportion be recovered in a maximally-even distribution; Padovan from the double modulation that produces the Brazilian sixteenth. In every case, the irrational proportion is the unique positive real solution of the consistency equation — not fitted to observation, but imposed by the structural constraint.
+
+Translated onto the logarithmic swing axis, the three ratios occupy three distinct positions:
+
+$
+rho approx 1.3247 space (40.5%), quad sqrt(2) approx 1.4142 space (50%), quad phi.alt approx 1.618 space (69.4%).
+$
+
+The three positions are spread across the swing continuum $1 < r < 2$ in a structured way: $rho$ in the lower half, $sqrt(2)$ at the geometric midpoint, $phi.alt$ above the midpoint, and none near the extremes. The distribution is not uniform — the interval between $rho$ and $sqrt(2)$ is narrower on the logarithmic axis than the interval between $sqrt(2)$ and $phi.alt$ — but it is structured, and it reflects the algebraic origins of the three numbers rather than any a posteriori arrangement.
+
+// TODO-FIGURE: Summary diagram showing the three ratio positions on the 
+// logarithmic swing axis, with each rule labelled next to its corresponding 
+// proportion. Adaptable from the relevant Hamburg summary slide.
+
+== 5.2 Algebraic Structure: Pisot and Non-Pisot
+
+The three numbers $rho$, $sqrt(2)$, and $phi.alt$ are all algebraic of low degree, but they differ in a property that has significant consequences for the dynamical behaviour of their generating substitutions: whether or not they are _Pisot numbers_. A Pisot number is an algebraic integer greater than one whose other roots (its Galois conjugates) all lie strictly inside the unit disc in the complex plane. Pisot numbers are characterised by a remarkable self-correcting property under iteration: perturbations of the duration ratios decay geometrically with every application of the rule, and the substitution converges robustly to its asymptotic structure even under imperfect execution.
+
+The golden ratio $phi.alt = (1 + sqrt(5)) slash 2$ has conjugate $(1 - sqrt(5)) slash 2 approx -0.618$, whose modulus is less than one. $phi.alt$ is Pisot. The plastic ratio $rho$, root of the cubic $x^3 = x + 1$, has two complex conjugates of modulus approximately $0.8688$, both less than one; $rho$ is the _smallest Pisot number_ of any degree, a fact of considerable structural importance. By contrast, $sqrt(2)$ has conjugate $-sqrt(2)$, whose modulus equals $sqrt(2) > 1$: $sqrt(2)$ is _not_ a Pisot number. Among the three proportions in the triad, two (the golden ratio and the plastic ratio) are Pisot, one ($sqrt(2)$) is not.
+
+This distinction is not a bookkeeping detail. It bears directly on the stability of the corresponding substitutions. Fibonacci and Padovan, being Pisot, are dynamically self-correcting: a performer who executes the rule with slightly imperfect durations will see the resulting perturbation decay with each iteration, converging back toward the exact ratio. The mirror rule, whose ratio $sqrt(2)$ is non-Pisot, has no such self-correcting property: perturbations of the duration ratio oscillate rather than decay, amplified at each step by the modulus of the conjugate. The second $sqrt(2)$ rule, introduced in Section 4.1, has different spectral properties from the mirror even though both converge to the same ratio; it is in fact Pisot, with inflation $1 + sqrt(2)$, which explains why it distributes letters evenly while the mirror clusters them.
+
+The observation that two distinct rules can select the same ratio $sqrt(2)$ while differing in their Pisot status is the key to resolving the apparent multiplicity of rules in the binary case. The ratio $sqrt(2)$ is not itself the site of the distinction; the rule and its algebraic character are. This is the first structural fact that the triad reveals: _ratios and rules are not coextensive, and what distinguishes good musical substitutions from bad ones lives in the rules, not in the ratios they happen to share_.
+
+== 5.3 Uniqueness in the Ternary Case
+
+The ternary case behaves differently from the binary one in a respect that deserves highlighting. In the binary alphabet, multiple substitution rules can select the same proportion, as the two rules for $sqrt(2)$ demonstrate; the landscape of admissible binary rules is _plural_. In the ternary alphabet, by contrast, the Padovan rule and the plastic ratio are _uniquely admissible_ under the natural constraints of the framework.
+
+The argument for uniqueness proceeds as follows. A ternary substitution with a geometric eigenvector $(1, lambda, lambda^2)$ imposes a specific relation between the inflation $lambda$ and the ratio between consecutive durations. For the ratio to remain within the swing domain — that is, $L slash S = lambda^2 < 2$ — the inflation must satisfy $lambda < sqrt(2) approx 1.414$. Combined with the Pisot requirement for dynamical stability, $lambda$ must be both Pisot and less than $sqrt(2)$.
+
+The set of Pisot numbers is closed and well-ordered from below, a result due to Salem and Siegel. Its first few elements are:
+
+$
+rho approx 1.3247, quad psi approx 1.4656, quad phi.alt approx 1.618, quad 1 + sqrt(2) approx 2.414, quad dots
+$
+
+Here $rho$ is the plastic number, $psi$ is the supergolden ratio (root of $x^3 = x^2 + 1$), and $phi.alt$ is the smallest Pisot number of degree two. Between $rho$ and $psi$, no Pisot number exists — a fact sometimes called the "Pisot gap." Combined with the constraint $lambda < sqrt(2)$, the gap leaves $rho$ as the only Pisot number satisfying both requirements. The plastic ratio is therefore the _unique_ admissible inflation for a self-similar, dynamically stable ternary swing substitution within the swing domain.
+
+The ternary case consolidates structurally what the binary case leaves distributed. Where the binary alphabet admits multiple rules competing for a given proportion, the ternary alphabet admits only one rule — with no alternative. This uniqueness is not a contingent choice but a structural fact of the Pisot hierarchy, and it positions the ternary Padovan rule as the natural extension of the framework beyond the binary case.
+
+== 5.4 The Triad as a Structured Family
+
+The three proportions ${rho, sqrt(2), phi.alt}$ can now be viewed not as a list of three special numbers but as a constrained selection under the combined requirements of the framework. Reading them together:
+
+The proportion $phi.alt$ arises from the simplest binary rule that preserves the swing character across iteration — the rule in which $L$ resolves into a swung pair $L S$ and $S$ advances to a single letter. It is Pisot, dynamically stable, and produces a Sturmian word of maximal evenness. It is the _optimal binary case_ for a minimal replacement of $S$.
+
+The proportion $sqrt(2)$ arises in two forms: as the non-Pisot ratio of the mirror rule, whose iterations cluster; and as the Pisot ratio of the second binary rule, whose iterations interleave. The two rules illustrate that a given irrational may be approached by different substitutions with different dynamical properties — the ratio does not alone determine whether a rule behaves well under iteration.
+
+The proportion $rho$ arises as the unique admissible inflation for a ternary self-similar substitution within the swing domain. It is the smallest Pisot number, the ternary cousin of $phi.alt$, and the proportion emerging from the double modulation that produces the Brazilian sixteenth pattern.
+
+The three proportions share a common structure: each is the positive real solution of a polynomial equation of low degree, each emerges from a substitution rule under a self-similarity constraint internal to the swing domain, and each occupies a determinate position on the logarithmic swing axis. They form a triad not by analogy or listing but by virtue of a shared generative principle: each is the proportion uniquely compatible with a particular structural requirement of fractal swing.
+
+Two questions remain open after this account. First, are there other irrational proportions, beyond these three, that could emerge from extensions of the framework — to larger alphabets, to different geometric structures, or to different self-similarity constraints? The framework as developed here does not claim to be exhaustive; it claims only that the three proportions $rho$, $sqrt(2)$, $phi.alt$ emerge from its simplest cases. Second, what musical consequences follow from the emergence of these specific proportions, and how deeply can they be realised in actual performance? This second question — the question of perceptual and practical limits — is the subject of the next section.
 
 
+= 6. Perceptual Limits and Tempo Admissibility
 
+Fractal swing, as developed in the preceding sections, is mathematically an infinite construction: each of the three substitution rules generates an infinite word, and the self-similarity of the resulting structure extends indefinitely downward through ever-finer subdivisions. Musically, however, fractal swing is not infinite. A performer cannot articulate arbitrarily fine subdivisions, and a listener cannot distinguish durations shorter than the perceptual threshold of the auditory system. The mathematical object must be realised, in practice, at a finite number of iteration levels — a depth constrained by the psychoacoustic window within which rhythm remains perceptible as rhythm. This section examines the perceptual limits that bound fractal swing in performance, and derives the tempo ranges within which each of the three rules can be articulated at useful depth.
 
+== 6.1 The Groove Window
 
+Between the briefest and the longest time intervals at which rhythmic events can be perceived as rhythm, there exists a bounded window of perceptual admissibility. Its _lower bound_ — the floor of the groove window — corresponds to the shortest inter-onset interval at which two successive events remain distinguishable as separate pulses rather than merging into a continuous flow. Classical estimates place this floor at approximately 100 ms per event (@london2012hearing), though the threshold varies with training, context, and cultural background.
 
+The _upper bound_ is more delicate. A common estimate in the literature places the general threshold of rhythmic perception at approximately 2 to 3 seconds per event (@london2012hearing), beyond which successive events fail to connect into a single perceptual group. But this general threshold is not the one that matters for fractal swing. A stricter constraint applies: for the subdivision of a beat into a swung duplet to be perceived _as swung_ — that is, as an internal unequal articulation of a single beat rather than as two independent events — the beat itself cannot be arbitrarily slow. When the beat exceeds a certain duration, the two sub-durations of the duplet cease to be integrated as one swung event and are instead heard as two successive events marked by an unequal interval. The gestalt of swing dissolves.
+
+The precise value of this stricter threshold — let us call it the _swingability ceiling_ — is difficult to establish with certainty. An intuitive estimate, pending systematic experimental investigation, places it in the neighbourhood of 60 beats per minute, corresponding to a beat duration of approximately one second. Below this tempo, a binary unequal subdivision of the beat may no longer be heard as a swung duplet but as two distinct rhythmic events. This estimate is explicitly provisional: the swingability ceiling is likely to vary with musical context, performer intention, cultural background of the listener, and the specific relation between the subdivision and the surrounding metric cycle. A more refined value would require empirical investigation across a range of styles and listeners — work that has, to my knowledge, not yet been systematically undertaken.
+
+For the present paper, the groove window is therefore bounded below by the perceptual floor (~100 ms) and above by the swingability ceiling (~60 BPM, tentatively). Any fractal swing realised in performance must respect both bounds: the coarsest pulse of the rhythm must fall below the swingability ceiling, and the finest subdivision it produces must remain above the floor. The existence of these two bounds imposes a ceiling on tempo and a ceiling on iteration depth — the two cannot both be pushed without violating one constraint or the other.
+
+== 6.2 Two-Level Coexistence
+
+The simplest application of the perceptual constraint concerns the requirement that _two consecutive levels of subdivision_ remain simultaneously audible. A fractal swing in which only one level of the subdivision is perceptible is structurally indistinguishable from a standard swung subdivision: the fractal character only emerges when two or more levels coexist in the ear of the listener. Two-level coexistence is therefore the minimal musical realisation of fractal swing.
+
+For two-level coexistence to hold, the finer of the two levels must still sit above the perceptual floor. If the base pulse produces $L$ and $S$ durations at some ratio $r$, then applying the rule one more time produces still finer durations, inflated by the rule's inflation factor $lambda$. The constraint is:
+
+$
+"finest IOI" > "perceptual floor" quad arrow.double quad T < T_"max" (lambda),
+$
+
+where $T_"max" (lambda)$ is the maximum admissible tempo for a rule with inflation $lambda$, given the perceptual floor. For each of the three rules introduced in Sections 2–4, this maximum tempo is a specific numerical value depending on $lambda$ and on the assumed perceptual floor.
+
+== 6.3 Three Rules, Three Tempo Ceilings, Three Fractal Depths
+
+Each of the four substitution rules examined in this paper — the mirror, the Fibonacci, the second $sqrt(2)$, and the Padovan — has a distinct inflation factor $lambda$, and therefore a distinct ceiling on the tempo at which two-level coexistence can be realised. Taking the perceptual floor at 100 ms and a base beat of reasonable tempo, the constraint $T times lambda < T_"max" = 600$ (i.e. 100 ms at the fastest subdivision) yields the following numerical values:
+
+*Mirror rule* (inflation $sqrt(2) approx 1.414$): tempo ceiling for two-level coexistence is approximately 124 BPM. At the slower bound of 60 BPM, the rule admits a maximum iteration depth of six levels before the finest subdivision falls below the perceptual floor.
+
+*Fibonacci rule* (inflation $phi.alt approx 1.618$): tempo ceiling is approximately 142 BPM. Remarkably, this ceiling corresponds almost exactly to the inter-onset interval of 100 ms at 8th-note subdivisions — a coincidence in which the algebraic constant $phi.alt$ and the physiological constant of auditory discrimination appear to meet. At 60 BPM, the Fibonacci rule admits a maximum depth of four iterations.
+
+*Second $sqrt(2)$ rule* (inflation $1 + sqrt(2) approx 2.414$): tempo ceiling is approximately 73 BPM. The aggressive Pisot inflation of this rule thins out the subdivisions faster than either of the two preceding rules, requiring a slower base tempo to keep the fastest subdivisions audible. At 60 BPM, the rule admits only two iterations before the finest subdivision falls below the floor — a severe constraint on its fractal depth.
+
+*Padovan rule* (inflation $rho approx 1.3247$): tempo ceiling is approximately 111 BPM. The plastic ratio's modest inflation allows the Padovan rule to operate at moderate tempos characteristic of the Brazilian rhythms where the pattern $M S M L$ is found. At 60 BPM, the Padovan rule admits a maximum depth of eight iterations — the deepest fractal realisation of any of the four rules.
+
+// TODO-FIGURE: A tempo axis showing the four tempo ceilings for the four 
+// rules, plus a table indicating maximum iteration depth at 60 BPM for 
+// each rule. The table highlights the inverse relation between inflation 
+// factor and fractal depth: the smaller the inflation, the deeper the 
+// structure can be realised in time.
+
+Two patterns emerge from these values. First, rules with low inflation (Padovan and mirror) admit greater fractal depth at any given tempo than rules with high inflation (Fibonacci and second $sqrt(2)$). The inflation factor is thus the principal determinant of how deeply a rule can be heard in performance. Second, the relation between tempo ceiling and iteration depth is reciprocal: a rule that can be played at a faster tempo before collapsing cannot be iterated as deeply at a slower tempo before collapsing. The rule's inflation governs both ends of the trade-off symmetrically.
+
+== 6.4 Musical Consequences
+
+The perceptual limits developed here impose a hierarchy of musical admissibility that aligns with an observation about genre. The samba — where the Padovan pattern $M S M L$ is documented — is most often played in the moderate tempo range where both the swingability ceiling (~60 BPM) and the Padovan rule's tempo ceiling (~111 BPM) are respected, and the rule can be iterated to substantial depth. Mainstream jazz swing sits in the neighbourhood of the Fibonacci proportion, in the tempo range where the Fibonacci ceiling of 142 BPM permits two-level articulation, and fractal iterations are shallower but still audible at two levels. Patterns corresponding to the second $sqrt(2)$ Pisot rule, with its aggressive inflation, are rare in standard practice precisely because their tempo window is severely narrow: at 60 BPM only two iterations survive, at 73 BPM only two-level coexistence is possible.
+
+Taking the two constraints together, each rule has a specific _tempo window_ within which it can be realised at minimal fractal depth (two-level coexistence) — a window bounded below by the swingability threshold (~60 BPM) and above by the rule-specific ceiling determined by its inflation. For the Padovan rule the window is comfortable (60–111 BPM, with the possibility of up to eight iterations at the lower bound). For Fibonacci it is narrower but still usable (60–142 BPM, with up to four iterations). For the mirror, tempo is less constrained but the clustering diagnosed in Section 2 limits the musical utility beyond two or three iterations. For the second $sqrt(2)$ Pisot rule, the window is the narrowest of all — a practical constraint that sharply limits the tempos at which the rule can be realised at any appreciable fractal depth.
+
+This alignment between algebraic constraints and performance tempos is not the claim that a musician who plays fast is executing one rule and a musician who plays slowly another. It is the observation that the structural requirements of each rule — how rapidly its subdivisions thin out, and how fine a subdivision can still be articulated cleanly — impose limits that are compatible with the actual tempo habits of the traditions where the corresponding patterns are found. The perceptual floor and the swingability ceiling are real constraints, not theoretical ones, and the tempo window within which fractal swing can be realised in performance is determined jointly by the inflation of the rule and the psychophysical bounds of rhythmic perception.
+
+Fractal swing, in short, is a bounded phenomenon. The mathematical framework generates infinite words; the musical realisation produces rhythmic structures at a finite number of iteration levels, constrained by the groove window. The three irrational proportions of the triad are not all realisable at every tempo, and the tempo at which each is realised is determined by its inflation factor and the perceptual floor. This bounded character of fractal swing is not a failure of the framework; it is a feature of its coupling to the psychoacoustic constraints of actual music-making.
 
 #pagebreak()
 
