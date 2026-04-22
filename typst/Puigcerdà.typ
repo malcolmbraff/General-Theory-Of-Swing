@@ -24,11 +24,10 @@
     Malcolm Braff
   ]
 
-  #text(size: 10pt, style: "italic")[
-    Musik-Akademie Basel, FHNW University of Applied Sciences and Arts Northwestern Switzerland\
-    Jazz Campus Basel\
-    ORCID: 0009-0007-0699-0737
-  ]
+ #text(size: 10pt, style: "italic")[
+  JazzCampus, Basel Academy of Music, FHNW University of Applied Sciences and Arts Northwestern Switzerland\
+  ORCID: 0009-0007-0699-0737
+]
 
   #v(0.3em)
 
@@ -59,7 +58,7 @@ Swung rhythmic subdivisions have long been described in terms of their liminal c
 
 
 
-#set heading(numbering: "1.1")
+
 = Introduction <intro>
 
 This paper takes swing — the rhythmic phenomenon characteristic of jazz, but also of many African, Afro-Brazilian, and Afro-Cuban traditions — as its point of departure, and asks what happens when its generative mechanism is pushed beyond the single-level organisation in which it is usually described. At one level of subdivision, swing is the familiar departure from equal durations: a duplet of long and short, with a ratio that leans somewhere between the straight 1:1 and the maximal 2:1. This local distortion has been extensively studied in the literature on microrhythm, timing, and groove. Notions such as groove depth, phrasing, harmonic synchronicity, and tempering have been developed earlier to articulate its musical functions#footnote[
@@ -83,7 +82,8 @@ A word on the status of the musical examples used throughout. The substitution r
 
 
 
-
+#pagebreak()
+#set heading(numbering: "1.1")
 = From Swing to Substitution: The Mirror Rule<mirror>
 
 Before the substitution framework can be developed, a brief detour is needed through what is meant by _swing_ at a single level of subdivision. The argument that follows takes the local distortion of duration as its starting point and then shows that this distortion, applied across paired subdivisions, can be reread as a symbolic operation — a substitution rule. The detour serves to make this rereading visible, and to explain why the rule that emerges is not posited but extracted.
@@ -98,18 +98,15 @@ A distortion applied to the pulse cycle does not act in isolation on the level a
 #include "plots/transfer.typ"
 
 
-The two figures below are swung with _opposite_ swing amounts. When the duplet is swung at high percentages, the triplet emergent from it will be swung at low percentages, mirrored from $100 - x$: the two subdivisions are coupled by an inversion of their respective swing percentages#footnote[
-  We notate the swing type by adding a secondary notation layer above the subdivision structure of the beat. In this added layer, longs are represented by a quaver (eighth note) and shorts by a semiquaver (sixteenth note). The amount of swing is indicated as a percentage, where 0% corresponds to the straight subdivision and 100% to the fully swung subdivision with a 2:1 long–short ratio (hence the quaver vs. semiquaver notation)
-]. 
 
 #figure(
   image("Figures/mirror2.png"),
-caption: [Synchronicity in mirror-paired swings]
+caption: [Synchronicity in mirror-paired swings.#footnote[
+  We notate the swing type by adding a secondary notation layer above the subdivision structure of the beat. In this added layer, longs are represented by a quaver (eighth note) and shorts by a semiquaver (sixteenth note). The amount of swing is indicated as a percentage, where 0% corresponds to the straight subdivision and 100% to the fully swung subdivision with a 2:1 long–short ratio (hence the quaver vs. semiquaver notation)
+] ]
 )<fig:morphing_pair>
 
-The two figures above are swung with _opposite_ swing amounts. When the duplet is swung at high percentages, the triplet emergent from it will be swung at low percentages, mirrored from $100 - x$: the two subdivisions are coupled by an inversion of their respective swing percentages.#footnote[
-  We notate the swing type by adding a secondary notation layer above the subdivision structure of the beat. In this added layer, longs are represented by a quaver (eighth note) and shorts by a semiquaver (sixteenth note). The amount of swing is indicated as a percentage, where 0% corresponds to the straight subdivision and 100% to the fully swung subdivision with a 2:1 long–short ratio (hence the quaver vs. semiquaver notation)
-] 
+@fig:morphing_pair shows the two subdivisions swung with _opposite_ swing amounts. When the duplet is swung at high percentages, the triplet emergent from it will be swung at low percentages, mirrored from $100 - x$: the two subdivisions are coupled by an inversion of their respective swing percentages.
 
 The decisive property of this pairing is not any particular value of swing at which the two subdivisions meet, but the persistence of rhythmic synchronicity across the entire morphing range: at every swing percentage in the range $0% <= x <= 100%$, the two layers align at a shared set of onsets, and their coupled distortion preserves a coherent perceptual relation. Moreover, the two swings carry opposite weight distributions within the beat cycle, a quality I have termed _GrooveBalance_ #cite(<huguenin2014temperament>). This property of sustained synchronicity under paired swing, exemplified here by the duplet/triplet case, is the _mirror effect_ #cite(<braff2016kyma>), and it is the empirical phenomenon to which the substitution framework of this section gives a symbolic reading.
 // TODO-FIGURE: Reuse from Hamburg slides — the figure showing the duplet at 0% 
@@ -185,8 +182,6 @@ If the programme outlined in the introduction is to succeed — a substitution r
 
 
 
-
-
 = The Swinging Substitution and the Golden Ratio <phi>
 
 The mirror rule of @mirror produced an irrational proportion — $sqrt(2)$ — but in the wrong register: the rule satisfied the consistency condition at the level of counts, yet drove the distribution of letters away from the uniformity required for metric well-formedness. The present section corrects this defect. It introduces a variant of the mirror substitution whose replacement words are themselves swung patterns rather than blocks of identical letters, and examines what follows from this modification. The consistency condition of the modified rule selects a different irrational proportion — the golden ratio — and the rule turns out to coincide with the canonical Fibonacci morphism of the combinatorial literature on Sturmian words.The section closes by showing that the emergence of Fibonacci from a swing-consistency requirement is not accidental: the property of preserving swing at every level of iteration is equivalent, for binary substitution rules, to the property of producing a Sturmian word, which is in turn equivalent to satisfying London's maximal evenness constraint across every finite iteration.
@@ -205,6 +200,7 @@ $
 
 In the new rule, each long resolves into a swung duplet — a long followed by a short — and each short advances to the role of a long at the next level. The substitution carries the swing forward at every application: wherever a long appears in the word, the next iteration replaces it with a local $L S$ pair that is itself a swung duplet in miniature. The straight cluster $S S$ that characterised the mirror's output never appears. The rule swings its own splits.
 
+#pagebreak(weak: true)
 == The Fibonacci Substitution
 
 Applied to the seed $L$, the modified rule produces the sequence:
@@ -246,7 +242,10 @@ The infinite word it generates from the seed $a$ is the Fibonacci word — the p
 
 == The Consistency Condition: The Golden Ratio
 
-The same structural reasoning that yielded $sqrt(2)$ for the mirror rule applies here. For the modified rule to generate a consistent swing at every level of iteration, the long-to-short ratio $r = L slash S$ must be preserved by a single application of the rule. Applied to $L$ and $S$ individually: the rule replaces $L$ by $L S$, of total absolute length $L + S$; and replaces $S$ by $L$, of absolute length $L$. For the ratio between these two new durations to equal the original ratio $r$, the equation
+The same structural reasoning that yielded $sqrt(2)$ for the mirror rule applies here. For the modified rule to generate a consistent swing at every level of iteration, the long-to-short ratio $r = L slash S$ must be preserved by a single application of the rule. Applied to $L$ and $S$ individually: the rule replaces $L$ by $L S$, of total absolute length $L + S$; and replaces $S$ by $L$, of absolute length $L$. 
+
+#pagebreak(weak: true)
+For the ratio between these two new durations to equal the original ratio $r$, the equation
 
 $
 r = (L + S) / L = 1 + 1 / r
@@ -305,7 +304,7 @@ r = sqrt(2)
 $
 
 The rule produces the same ratio as the mirror $L slash S = sqrt(2)$ at every level, but it differs from it in two respects of musical significance. First, the letters interleave rather than cluster. At every iteration, shorts and longs alternate in a pattern that is rhythmically alive, not blocked. The rule satisfies the consistency condition as the mirror does, but it satisfies it in a way that respects the distribution, not merely the counting. Second, the rule inflates more aggressively: where the mirror doubled the word length at each step (with inflation factor $sqrt(2)$ between successive absolute lengths), this rule inflates by a factor of $1 + sqrt(2) approx 2.414$. Musically, the subdivisions thin out faster: to reach a given number of subdivision levels, the performer needs either a slower base tempo or a shallower recursion.
-#v(10pt)
+#v(5pt)
 #figure(
   block[
     #stack(
@@ -314,14 +313,14 @@ The rule produces the same ratio as the mirror $L slash S = sqrt(2)$ at every le
       $S L$,
       $S L S L S$,
       $S L S L S S L S L S S L$,
-      $S L S L S S L S L S S L S L S L S S L S L S S L S L S L S$,
+    
     )
     #v(0.8em)
   ],
   caption: [Iterations of the second $sqrt(2)$ rule ($S arrow.r S L$, $L arrow.r S L S$) starting from the seed $S L$.],
 ) <fig:sqrt2sequence>
 
-#v(10pt)
+#v(5pt)
 
 The observation that the same ratio $sqrt(2)$ admits two distinct substitution realisations — one clustering and compact, one interleaving and dense — is the first indication that the landscape of admissible swing proportions is richer than a naive one-ratio-per-rule reading would suggest. It is not enough to know which irrational a rule converges to; one must also know how it produces it, because the how determines whether the rule is iterable, whether the swing character is preserved, and whether the fractal structure survives across iteration levels.
 
@@ -331,10 +330,11 @@ Certain rhythmic traditions exhibit, at the level of beat subdivision, patterns 
 
 *Palindromic reading.* The four-element pattern $M S M L$ admits a natural decomposition into two halves: a first pair $M S$ and a second pair $M L$. In the first pair, $M > S$, so the pair reads as a _long–short_ configuration at the internal scale. In the second pair, $M < L$, so the pair reads as a _short–long_ configuration at the internal scale. We can therefore consider the pattern $M S M L$ as a distorsion of the pattern $L S S L$.
 
-*Double swing modulation.* The palindromic structure of $M S M L$ arises from the superposition of two levels of swing. At the first, lower level, the mirror operation already established in @mirror gives the quadruplet $L S S L$ as the mirror of the triplet $S L S$, both swung at some ratio $r_2 = L slash S$. The asymmetry of $M S M L$ is then obtained by inserting an additional swing at a higher level — a construction I call _double swing modulation_:
+*Double swing modulation.* The palindromic structure of $M S M L$ arises from the superposition of two levels of swing. At the first, lower level, the mirror operation already established in @mirror gives the quadruplet $L S S L$ as the mirror of the triplet $S L S$, both swung at some ratio $r_2 = L slash S$. The asymmetry of $M S M L$ is then obtained by inserting an additional swing at a higher level — a construction I call _double swing modulation_
 
 #figure(
-  image("Figures/fractal/samba.png", width: 15%),
+  
+  image("Figures/fractal/samba.png", width: 13%),
   caption: [double swing modulation]
 )<double-swing>
 
@@ -365,7 +365,7 @@ $
 The extreme ratio $L slash S = rho^2 approx 1.755$ remains below the threshold 2 that distinguishes a swung subdivision from a resubdivided rhythm. The plastic ratio emerges from the double swing modulation as the irrational proportion for which the two-level swing structure is self-consistent with three-duration reduction.
 
 #figure(
-  image("Figures/fractal/samba%.png", width: 35%),
+  image("Figures/fractal/samba%.png", width: 30%),
   caption: [The double swing modulation yields the Plastic Ratio]
 )<plasticsamba>
 *The substitution rule.* With the three durations in the geometric progression $S : M : L = 1 : rho : rho^2$, the substitution rule that generates the pattern $M S M L$ under iteration, and which preserves the three-duration swing across every level, is:

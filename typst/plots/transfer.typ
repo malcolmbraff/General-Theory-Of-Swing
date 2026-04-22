@@ -4,7 +4,7 @@
 #import "@preview/lilaq:0.4.0" as lq
 
 #set text(font: "New Computer Modern", size: 10pt)
-
+#v(10pt)
 #figure(
   lq.diagram(
     width: 6cm,
@@ -84,5 +84,3 @@
     $L:S = 2:1$ ratio.
   ],
 ) <fig:transfer-functions>
-
-#v(10pt)
