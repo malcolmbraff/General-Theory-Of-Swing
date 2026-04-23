@@ -7,11 +7,11 @@
 // =========================================================================
 #import "@preview/lilaq:0.4.0" as lq
 #set page(paper: "a4", margin: 2.5cm)
-
 #set text(font: "TeX Gyre Pagella", size: 11pt, lang: "en", hyphenate: true)
 #set par(justify: true, leading: 0.7em, first-line-indent: 0pt)
 #show heading: set block(above: 1.6em, below: 0.8em)
-
+#show math.equation.where(block: true): set block(above: 1.5em, below: 1.5em)
+#show figure: set block(above: 1.5em, below: 1.5em)
 #align(center)[
   #text(size: 18pt, weight: "bold")[
     Phi, $sqrt(2)$ and the Plastic Ratio:\
@@ -56,8 +56,8 @@ Swung rhythmic subdivisions have long been described in terms of their liminal c
 #pagebreak()
 
 
-
-
+#counter(page).update(1)
+#set page(numbering: "1")
 
 = Introduction <intro>
 
