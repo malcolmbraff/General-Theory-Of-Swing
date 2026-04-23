@@ -9,7 +9,7 @@
     WORKING PAPER
   ]
 #text(size: 9pt, fill: luma(150))[
-  DOI: 10.5281/zenodo.19445894
+  DOI: 10.5281/zenodo.19704154
 ]
   #v(1em)
 
